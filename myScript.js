@@ -1,5 +1,5 @@
 let movieData = require("./data");
-var $ = require('jquery');
+var $ = require("jquery");
 renderMovie(movieData);
 function renderMovie(movieData) {
     document.getElementById("bildFilm").setAttribute("src", movieData.imageUrl);

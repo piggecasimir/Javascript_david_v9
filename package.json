@@ -12,7 +12,7 @@
     "lintless": "stylelint Style.less",
     "lintjs": "eslint .",
     "lint": "eslint . && stylelint Style.less",
-    "copyindex": "cp index.html distribution/index.html"
+    "copyindex": "cp template.html distribution/index.html"
   },
   "author": "Jonas",
   "license": "ISC",
